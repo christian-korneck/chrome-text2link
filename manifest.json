@@ -1,0 +1,9 @@
+{
+  "manifest_version": 3,
+  "name": "text2link",
+  "version": "1.0.0",
+  "description": "Copy a link to the selected text (URL text fragment) to the clipboard.",
+  "permissions": ["contextMenus", "activeTab", "scripting", "clipboardWrite"],
+  "background": { "service_worker": "background.js" },
+  "action": { "default_title": "text2link: copy link to selected text" }
+}
